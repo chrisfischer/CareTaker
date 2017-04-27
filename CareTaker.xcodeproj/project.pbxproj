@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE36AADAC2AA15E6509B88F /* Pods_CareTakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF18F11824C7D8533013870 /* Pods_CareTakerTests.framework */; };
+		610EFD011E99E01A00A3DB74 /* PatientDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EFD001E99E01A00A3DB74 /* PatientDatabase.swift */; };
+		610EFD031E99F01A00A3DB74 /* PatientInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EFD021E99F01A00A3DB74 /* PatientInfoViewController.swift */; };
+		610F9E2F1EA6CC0A0090843C /* PatientOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F9E2E1EA6CC0A0090843C /* PatientOptionsViewController.swift */; };
+		6112A2F81EA9A9F700CCC637 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112A2F71EA9A9F700CCC637 /* LocationController.swift */; };
+		61134F7C1EB05607002EDC7A /* CircleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61134F7B1EB05607002EDC7A /* CircleAnnotation.swift */; };
+		611AA2681EA7F90E00DCD356 /* EditPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611AA2671EA7F90E00DCD356 /* EditPatientViewController.swift */; };
 		61859E091E99AE440065CA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61859E081E99AE440065CA6A /* AppDelegate.swift */; };
-		61859E0B1E99AE440065CA6A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61859E0A1E99AE440065CA6A /* FirstViewController.swift */; };
-		61859E0D1E99AE440065CA6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61859E0C1E99AE440065CA6A /* SecondViewController.swift */; };
+		61859E0B1E99AE440065CA6A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61859E0A1E99AE440065CA6A /* AccountViewController.swift */; };
 		61859E101E99AE440065CA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61859E0E1E99AE440065CA6A /* Main.storyboard */; };
 		61859E121E99AE440065CA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61859E111E99AE440065CA6A /* Assets.xcassets */; };
 		61859E151E99AE440065CA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61859E131E99AE440065CA6A /* LaunchScreen.storyboard */; };
 		61859E201E99AE440065CA6A /* CareTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61859E1F1E99AE440065CA6A /* CareTakerTests.swift */; };
 		61859E2B1E99AE440065CA6A /* CareTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61859E2A1E99AE440065CA6A /* CareTakerUITests.swift */; };
+		6187A9AC1EA96C540008A215 /* ActivityStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187A9AB1EA96C540008A215 /* ActivityStates.swift */; };
+		6187A9AE1EA96E770008A215 /* MotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187A9AD1EA96E770008A215 /* MotionController.swift */; };
+		619D651D1EB18F990047910E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D651C1EB18F990047910E /* UserNotifications.framework */; };
+		61A68CEA1E99B96D000D8EFB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CE91E99B96D000D8EFB /* SignUpViewController.swift */; };
+		61A68CEC1E99BA25000D8EFB /* GetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CEB1E99BA25000D8EFB /* GetInfoViewController.swift */; };
+		61A68CEE1E99BC4F000D8EFB /* PatientMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CED1E99BC4F000D8EFB /* PatientMenuViewController.swift */; };
+		61A68CF01E99C096000D8EFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61A68CEF1E99C096000D8EFB /* GoogleService-Info.plist */; };
+		61A68CF21E99C6CD000D8EFB /* YourPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CF11E99C6CD000D8EFB /* YourPatientsViewController.swift */; };
+		61A68CF61E99C731000D8EFB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CF51E99C731000D8EFB /* SignInViewController.swift */; };
+		61A68CF81E99CE79000D8EFB /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CF71E99CE79000D8EFB /* AddPatientViewController.swift */; };
+		61A68CFC1E99D281000D8EFB /* PatientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68CFB1E99D281000D8EFB /* PatientsTableViewController.swift */; };
+		61A68D031E99D852000D8EFB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68D021E99D852000D8EFB /* NotificationsViewController.swift */; };
+		61A68D051E99D867000D8EFB /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68D041E99D867000D8EFB /* NotificationsTableViewController.swift */; };
+		61A68D091E99DE5D000D8EFB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68D081E99DE5D000D8EFB /* Notifications.swift */; };
+		61B17F1E1EAC6CE40071FC32 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B17F1D1EAC6CE40071FC32 /* RoundedButton.swift */; };
+		61C556F01EA14F3700F7B537 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C556EF1EA14F3700F7B537 /* CircleLayer.swift */; };
+		61C556F21EA1AA0B00F7B537 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C556F11EA1AA0A00F7B537 /* Colors.swift */; };
+		61C556F41EA1B37E00F7B537 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C556F31EA1B37E00F7B537 /* Patient.swift */; };
+		61C556F61EA1BCEC00F7B537 /* NSNotificationCenterKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C556F51EA1BCEC00F7B537 /* NSNotificationCenterKeys.swift */; };
+		61E92A421E9B102700B4325E /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E92A411E9B102700B4325E /* ResetPasswordViewController.swift */; };
+		9FC74309F7D849C14D11AA1C /* Pods_CareTaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2609EF812FAD5217350FBFAD /* Pods_CareTaker.framework */; };
+		B1AB8311993FCF5F5F78D97A /* Pods_CareTakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBE372CBFBD91629000FF5F /* Pods_CareTakerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +63,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FBE372CBFBD91629000FF5F /* Pods_CareTakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareTakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2609EF812FAD5217350FBFAD /* Pods_CareTaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareTaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540B9B85F739E2353E8DB00A /* Pods-CareTaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareTaker/Pods-CareTaker.release.xcconfig"; sourceTree = "<group>"; };
+		5BAB78FB57D4D8E8D1A8FC90 /* Pods-CareTakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTakerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareTakerUITests/Pods-CareTakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		610EFD001E99E01A00A3DB74 /* PatientDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDatabase.swift; sourceTree = "<group>"; };
+		610EFD021E99F01A00A3DB74 /* PatientInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientInfoViewController.swift; sourceTree = "<group>"; };
+		610F9E2E1EA6CC0A0090843C /* PatientOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientOptionsViewController.swift; sourceTree = "<group>"; };
+		6112A2F71EA9A9F700CCC637 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		61134F7A1EB042FD002EDC7A /* CareTaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CareTaker.entitlements; sourceTree = "<group>"; };
+		61134F7B1EB05607002EDC7A /* CircleAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnnotation.swift; sourceTree = "<group>"; };
+		611AA2671EA7F90E00DCD356 /* EditPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPatientViewController.swift; sourceTree = "<group>"; };
 		61859E051E99AE440065CA6A /* CareTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61859E081E99AE440065CA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61859E0A1E99AE440065CA6A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		61859E0C1E99AE440065CA6A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		61859E0A1E99AE440065CA6A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		61859E0F1E99AE440065CA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61859E111E99AE440065CA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61859E141E99AE440065CA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +87,31 @@
 		61859E261E99AE440065CA6A /* CareTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61859E2A1E99AE440065CA6A /* CareTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerUITests.swift; sourceTree = "<group>"; };
 		61859E2C1E99AE440065CA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6187A9AB1EA96C540008A215 /* ActivityStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityStates.swift; sourceTree = "<group>"; };
+		6187A9AD1EA96E770008A215 /* MotionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionController.swift; sourceTree = "<group>"; };
+		619D651C1EB18F990047910E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		61A68CE91E99B96D000D8EFB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		61A68CEB1E99BA25000D8EFB /* GetInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInfoViewController.swift; sourceTree = "<group>"; };
+		61A68CED1E99BC4F000D8EFB /* PatientMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMenuViewController.swift; sourceTree = "<group>"; };
+		61A68CEF1E99C096000D8EFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61A68CF11E99C6CD000D8EFB /* YourPatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourPatientsViewController.swift; sourceTree = "<group>"; };
+		61A68CF51E99C731000D8EFB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		61A68CF71E99CE79000D8EFB /* AddPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		61A68CFB1E99D281000D8EFB /* PatientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsTableViewController.swift; sourceTree = "<group>"; };
+		61A68D021E99D852000D8EFB /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		61A68D041E99D867000D8EFB /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		61A68D081E99DE5D000D8EFB /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		61B17F1D1EAC6CE40071FC32 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		61C556EF1EA14F3700F7B537 /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		61C556F11EA1AA0A00F7B537 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		61C556F31EA1B37E00F7B537 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		61C556F51EA1BCEC00F7B537 /* NSNotificationCenterKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationCenterKeys.swift; sourceTree = "<group>"; };
+		61E92A411E9B102700B4325E /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		6C461A03F54D483E16923FEC /* Pods-CareTakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTakerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareTakerUITests/Pods-CareTakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ABC9A2B009D55B42BF610F04 /* Pods-CareTaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareTaker/Pods-CareTaker.debug.xcconfig"; sourceTree = "<group>"; };
+		BAEB37B0D8AD1AF298866F1D /* Pods-CareTakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareTakerTests/Pods-CareTakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF18F11824C7D8533013870 /* Pods_CareTakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareTakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED88C464663E10A93D0E9F13 /* Pods-CareTakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareTakerTests/Pods-CareTakerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619D651D1EB18F990047910E /* UserNotifications.framework in Frameworks */,
+				9FC74309F7D849C14D11AA1C /* Pods_CareTaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE36AADAC2AA15E6509B88F /* Pods_CareTakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +136,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AB8311993FCF5F5F78D97A /* Pods_CareTakerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		610F9E301EA6CC110090843C /* CareTakerUI */ = {
+			isa = PBXGroup;
+			children = (
+				61A68CFF1E99D2B5000D8EFB /* Account */,
+				61A68CFE1E99D2AC000D8EFB /* Notifications */,
+				61A68CFD1E99D2A6000D8EFB /* Patients */,
+			);
+			name = CareTakerUI;
+			sourceTree = "<group>";
+		};
+		610F9E311EA6CC210090843C /* PatientUI */ = {
+			isa = PBXGroup;
+			children = (
+				61A68CED1E99BC4F000D8EFB /* PatientMenuViewController.swift */,
+				610F9E2E1EA6CC0A0090843C /* PatientOptionsViewController.swift */,
+			);
+			name = PatientUI;
+			sourceTree = "<group>";
+		};
+		610F9E321EA6CC4A0090843C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				61E92A411E9B102700B4325E /* ResetPasswordViewController.swift */,
+				61A68CE91E99B96D000D8EFB /* SignUpViewController.swift */,
+				61A68CF51E99C731000D8EFB /* SignInViewController.swift */,
+				61A68CEB1E99BA25000D8EFB /* GetInfoViewController.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
 		61859DFC1E99AE440065CA6A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +180,8 @@
 				61859E1E1E99AE440065CA6A /* CareTakerTests */,
 				61859E291E99AE440065CA6A /* CareTakerUITests */,
 				61859E061E99AE440065CA6A /* Products */,
+				C1EBE58BAF821BB14B72C5E7 /* Pods */,
+				B59F9A1576CB880A041905FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +198,18 @@
 		61859E071E99AE440065CA6A /* CareTaker */ = {
 			isa = PBXGroup;
 			children = (
+				61134F7A1EB042FD002EDC7A /* CareTaker.entitlements */,
+				61A68CF31E99C6EB000D8EFB /* PatientModel */,
+				61A68CF41E99C6F2000D8EFB /* CareTakerModel */,
+				61A68CE81E99B959000D8EFB /* ViewControllers */,
+				61C556F51EA1BCEC00F7B537 /* NSNotificationCenterKeys.swift */,
+				61C556F11EA1AA0A00F7B537 /* Colors.swift */,
+				61C556EF1EA14F3700F7B537 /* CircleLayer.swift */,
+				61B17F1D1EAC6CE40071FC32 /* RoundedButton.swift */,
 				61859E081E99AE440065CA6A /* AppDelegate.swift */,
-				61859E0A1E99AE440065CA6A /* FirstViewController.swift */,
-				61859E0C1E99AE440065CA6A /* SecondViewController.swift */,
 				61859E0E1E99AE440065CA6A /* Main.storyboard */,
 				61859E111E99AE440065CA6A /* Assets.xcassets */,
+				61A68CEF1E99C096000D8EFB /* GoogleService-Info.plist */,
 				61859E131E99AE440065CA6A /* LaunchScreen.storyboard */,
 				61859E161E99AE440065CA6A /* Info.plist */,
 			);
@@ -128,6 +234,90 @@
 			path = CareTakerUITests;
 			sourceTree = "<group>";
 		};
+		61A68CE81E99B959000D8EFB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				610F9E321EA6CC4A0090843C /* SignIn */,
+				610F9E311EA6CC210090843C /* PatientUI */,
+				610F9E301EA6CC110090843C /* CareTakerUI */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		61A68CF31E99C6EB000D8EFB /* PatientModel */ = {
+			isa = PBXGroup;
+			children = (
+				6187A9AB1EA96C540008A215 /* ActivityStates.swift */,
+				6187A9AD1EA96E770008A215 /* MotionController.swift */,
+				6112A2F71EA9A9F700CCC637 /* LocationController.swift */,
+			);
+			name = PatientModel;
+			sourceTree = "<group>";
+		};
+		61A68CF41E99C6F2000D8EFB /* CareTakerModel */ = {
+			isa = PBXGroup;
+			children = (
+				61134F7B1EB05607002EDC7A /* CircleAnnotation.swift */,
+				61A68D081E99DE5D000D8EFB /* Notifications.swift */,
+				610EFD001E99E01A00A3DB74 /* PatientDatabase.swift */,
+				61C556F31EA1B37E00F7B537 /* Patient.swift */,
+			);
+			name = CareTakerModel;
+			sourceTree = "<group>";
+		};
+		61A68CFD1E99D2A6000D8EFB /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				61A68CF11E99C6CD000D8EFB /* YourPatientsViewController.swift */,
+				61A68CFB1E99D281000D8EFB /* PatientsTableViewController.swift */,
+				610EFD021E99F01A00A3DB74 /* PatientInfoViewController.swift */,
+				61A68CF71E99CE79000D8EFB /* AddPatientViewController.swift */,
+				611AA2671EA7F90E00DCD356 /* EditPatientViewController.swift */,
+			);
+			name = Patients;
+			sourceTree = "<group>";
+		};
+		61A68CFE1E99D2AC000D8EFB /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				61A68D021E99D852000D8EFB /* NotificationsViewController.swift */,
+				61A68D041E99D867000D8EFB /* NotificationsTableViewController.swift */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		61A68CFF1E99D2B5000D8EFB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				61859E0A1E99AE440065CA6A /* AccountViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		B59F9A1576CB880A041905FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				619D651C1EB18F990047910E /* UserNotifications.framework */,
+				2609EF812FAD5217350FBFAD /* Pods_CareTaker.framework */,
+				EBF18F11824C7D8533013870 /* Pods_CareTakerTests.framework */,
+				1FBE372CBFBD91629000FF5F /* Pods_CareTakerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1EBE58BAF821BB14B72C5E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABC9A2B009D55B42BF610F04 /* Pods-CareTaker.debug.xcconfig */,
+				540B9B85F739E2353E8DB00A /* Pods-CareTaker.release.xcconfig */,
+				BAEB37B0D8AD1AF298866F1D /* Pods-CareTakerTests.debug.xcconfig */,
+				ED88C464663E10A93D0E9F13 /* Pods-CareTakerTests.release.xcconfig */,
+				5BAB78FB57D4D8E8D1A8FC90 /* Pods-CareTakerUITests.debug.xcconfig */,
+				6C461A03F54D483E16923FEC /* Pods-CareTakerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61859E2F1E99AE440065CA6A /* Build configuration list for PBXNativeTarget "CareTaker" */;
 			buildPhases = (
+				4D91A49BC395D5BA60820147 /* [CP] Check Pods Manifest.lock */,
 				61859E011E99AE440065CA6A /* Sources */,
 				61859E021E99AE440065CA6A /* Frameworks */,
 				61859E031E99AE440065CA6A /* Resources */,
+				8FD2684560EE892121B08C63 /* [CP] Embed Pods Frameworks */,
+				42A0F4402654FA7B025E10D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +345,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61859E321E99AE440065CA6A /* Build configuration list for PBXNativeTarget "CareTakerTests" */;
 			buildPhases = (
+				16C9AEAA2E3515743FADB2CA /* [CP] Check Pods Manifest.lock */,
 				61859E171E99AE440065CA6A /* Sources */,
 				61859E181E99AE440065CA6A /* Frameworks */,
 				61859E191E99AE440065CA6A /* Resources */,
+				CD9225C89A0CEFBFE085F8A0 /* [CP] Embed Pods Frameworks */,
+				7F45E6184F902B8483B68A25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +366,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61859E351E99AE440065CA6A /* Build configuration list for PBXNativeTarget "CareTakerUITests" */;
 			buildPhases = (
+				191B1A669AAA7DB555A80CB0 /* [CP] Check Pods Manifest.lock */,
 				61859E221E99AE440065CA6A /* Sources */,
 				61859E231E99AE440065CA6A /* Frameworks */,
 				61859E241E99AE440065CA6A /* Resources */,
+				1F4067A86E5EF30C7B3A8124 /* [CP] Embed Pods Frameworks */,
+				43B606799D988AFCF1CC60D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +397,14 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = N4963EZCDT;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					61859E1A1E99AE440065CA6A = {
 						CreatedOnToolsVersion = 8.3;
@@ -239,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61859E151E99AE440065CA6A /* LaunchScreen.storyboard in Resources */,
+				61A68CF01E99C096000D8EFB /* GoogleService-Info.plist in Resources */,
 				61859E121E99AE440065CA6A /* Assets.xcassets in Resources */,
 				61859E101E99AE440065CA6A /* Main.storyboard in Resources */,
 			);
@@ -260,14 +468,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16C9AEAA2E3515743FADB2CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		191B1A669AAA7DB555A80CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F4067A86E5EF30C7B3A8124 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareTakerUITests/Pods-CareTakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A0F4402654FA7B025E10D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareTaker/Pods-CareTaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B606799D988AFCF1CC60D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareTakerUITests/Pods-CareTakerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D91A49BC395D5BA60820147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F45E6184F902B8483B68A25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareTakerTests/Pods-CareTakerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD2684560EE892121B08C63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareTaker/Pods-CareTaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9225C89A0CEFBFE085F8A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareTakerTests/Pods-CareTakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61859E011E99AE440065CA6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61859E0D1E99AE440065CA6A /* SecondViewController.swift in Sources */,
+				61A68CF21E99C6CD000D8EFB /* YourPatientsViewController.swift in Sources */,
+				61A68D051E99D867000D8EFB /* NotificationsTableViewController.swift in Sources */,
+				6187A9AC1EA96C540008A215 /* ActivityStates.swift in Sources */,
+				61A68D031E99D852000D8EFB /* NotificationsViewController.swift in Sources */,
+				61134F7C1EB05607002EDC7A /* CircleAnnotation.swift in Sources */,
+				61C556F21EA1AA0B00F7B537 /* Colors.swift in Sources */,
+				61A68CEE1E99BC4F000D8EFB /* PatientMenuViewController.swift in Sources */,
 				61859E091E99AE440065CA6A /* AppDelegate.swift in Sources */,
-				61859E0B1E99AE440065CA6A /* FirstViewController.swift in Sources */,
+				611AA2681EA7F90E00DCD356 /* EditPatientViewController.swift in Sources */,
+				61A68CFC1E99D281000D8EFB /* PatientsTableViewController.swift in Sources */,
+				610EFD031E99F01A00A3DB74 /* PatientInfoViewController.swift in Sources */,
+				61A68D091E99DE5D000D8EFB /* Notifications.swift in Sources */,
+				61C556F61EA1BCEC00F7B537 /* NSNotificationCenterKeys.swift in Sources */,
+				61A68CF61E99C731000D8EFB /* SignInViewController.swift in Sources */,
+				610EFD011E99E01A00A3DB74 /* PatientDatabase.swift in Sources */,
+				61C556F41EA1B37E00F7B537 /* Patient.swift in Sources */,
+				6187A9AE1EA96E770008A215 /* MotionController.swift in Sources */,
+				6112A2F81EA9A9F700CCC637 /* LocationController.swift in Sources */,
+				61A68CEC1E99BA25000D8EFB /* GetInfoViewController.swift in Sources */,
+				61C556F01EA14F3700F7B537 /* CircleLayer.swift in Sources */,
+				61A68CF81E99CE79000D8EFB /* AddPatientViewController.swift in Sources */,
+				61E92A421E9B102700B4325E /* ResetPasswordViewController.swift in Sources */,
+				61B17F1E1EAC6CE40071FC32 /* RoundedButton.swift in Sources */,
+				610F9E2F1EA6CC0A0090843C /* PatientOptionsViewController.swift in Sources */,
+				61A68CEA1E99B96D000D8EFB /* SignUpViewController.swift in Sources */,
+				61859E0B1E99AE440065CA6A /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +788,10 @@
 		};
 		61859E301E99AE440065CA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC9A2B009D55B42BF610F04 /* Pods-CareTaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CareTaker/CareTaker.entitlements;
 				DEVELOPMENT_TEAM = N4963EZCDT;
 				INFOPLIST_FILE = CareTaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,8 +803,10 @@
 		};
 		61859E311E99AE440065CA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540B9B85F739E2353E8DB00A /* Pods-CareTaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CareTaker/CareTaker.entitlements;
 				DEVELOPMENT_TEAM = N4963EZCDT;
 				INFOPLIST_FILE = CareTaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -445,6 +818,7 @@
 		};
 		61859E331E99AE440065CA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEB37B0D8AD1AF298866F1D /* Pods-CareTakerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +834,7 @@
 		};
 		61859E341E99AE440065CA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED88C464663E10A93D0E9F13 /* Pods-CareTakerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +850,7 @@
 		};
 		61859E361E99AE440065CA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAB78FB57D4D8E8D1A8FC90 /* Pods-CareTakerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N4963EZCDT;
@@ -489,6 +865,7 @@
 		};
 		61859E371E99AE440065CA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C461A03F54D483E16923FEC /* Pods-CareTakerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N4963EZCDT;
@@ -520,6 +897,7 @@
 				61859E311E99AE440065CA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61859E321E99AE440065CA6A /* Build configuration list for PBXNativeTarget "CareTakerTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +906,7 @@
 				61859E341E99AE440065CA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61859E351E99AE440065CA6A /* Build configuration list for PBXNativeTarget "CareTakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +915,7 @@
 				61859E371E99AE440065CA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

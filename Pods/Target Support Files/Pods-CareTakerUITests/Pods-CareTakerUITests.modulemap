@@ -1,0 +1,6 @@
+framework module Pods_CareTakerUITests {
+  umbrella header "Pods-CareTakerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

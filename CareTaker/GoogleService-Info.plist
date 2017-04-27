@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>331309826142-tp9mg783s91mggs9dr15f30g7g7r9uuj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.331309826142-tp9mg783s91mggs9dr15f30g7g7r9uuj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiOGMxzfvZOJPt49Fj_Hm9HPfgU0ibwUU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>331309826142</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fischer.CareTaker</string>
+	<key>PROJECT_ID</key>
+	<string>caretaker-80450</string>
+	<key>STORAGE_BUCKET</key>
+	<string>caretaker-80450.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:331309826142:ios:14939bd75d8dd732</string>
+	<key>DATABASE_URL</key>
+	<string>https://caretaker-80450.firebaseio.com</string>
+</dict>
+</plist>
